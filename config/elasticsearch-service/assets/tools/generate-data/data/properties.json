@@ -1,0 +1,837 @@
+[
+  {
+    "name": "MGM Grand LV",
+    "_id": "91455f10-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b751e0-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "Park MGM",
+    "_id": "91455f11-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b751e0-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "Bellagio",
+    "_id": "91455f12-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b751e0-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "New York-New York",
+    "_id": "91455f13-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b751e0-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "Circus Circus",
+    "_id": "91455f14-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b751e0-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "Mandalay Bay",
+    "_id": "91455f15-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b751e0-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "ARIA",
+    "_id": "91455f16-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b751e0-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "Luxor",
+    "_id": "91455f17-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b751e0-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "The Mirage",
+    "_id": "91455f18-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b751e0-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "Excalibur",
+    "_id": "91455f19-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b751e0-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "PLAYSTUDIOS",
+    "_id": "91455f1a-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b751e1-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "Lupo by WP",
+    "_id": "91455f1b-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b751e2-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "One Drop",
+    "_id": "91455f1c-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b751e3-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "M life",
+    "_id": "91455f1d-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b751e0-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "Pole Position CA",
+    "_id": "91455f1e-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b751e4-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "Sugar Factory",
+    "_id": "91455f1f-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b751e5-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "VIVA myVEGAS",
+    "_id": "91455f20-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b751e6-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "House of Blues",
+    "_id": "91455f21-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b751e7-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "Las Vegas Monorail",
+    "_id": "91455f22-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b751e8-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "Vdara",
+    "_id": "91455f23-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b751e0-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "Beau Rivage",
+    "_id": "91455f24-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b751e0-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "Gold Strike",
+    "_id": "91455f25-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b751e0-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "MGM National Harbor",
+    "_id": "91455f26-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b751e0-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "Cirque du Soleil ™",
+    "_id": "91455f27-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b751e9-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "Fandango",
+    "_id": "91455f28-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b751ea-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "Casa de Shenandoah",
+    "_id": "91455f29-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b751eb-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "Bankstown Sports Club",
+    "_id": "91455f2a-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b751ec-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "Royal Caribbean",
+    "_id": "91455f2b-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b751ed-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "The Smith Center",
+    "_id": "91455f2c-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b751ee-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "Red Rock Casino",
+    "_id": "91455f2d-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b751ef-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "Green Valley Ranch",
+    "_id": "91455f2e-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b751ef-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "Palace Station",
+    "_id": "91455f2f-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b751ef-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "LV Motor Speedway",
+    "_id": "91455f30-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b751f0-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "iHeartRadio",
+    "_id": "91455f31-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b751f1-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "Sunset Station",
+    "_id": "91455f32-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b751ef-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "Graton Resort",
+    "_id": "91455f33-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b751ef-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "Circus Circus - Reno",
+    "_id": "91455f34-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b751e0-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "Allegiant Air",
+    "_id": "91455f35-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b751f2-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "Santa Fe Station",
+    "_id": "91455f36-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b751ef-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "Baha Mar",
+    "_id": "91455f37-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b751f3-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "SHAQ",
+    "_id": "91455f38-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b751f4-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "HEXX",
+    "_id": "91455f39-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b751e5-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "Hippodrome Casino",
+    "_id": "91455f3a-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b751f5-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "Resorts World Birmingham",
+    "_id": "91455f3b-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b751f6-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "Borgata",
+    "_id": "91455f3c-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b751e0-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "Life is Beautiful",
+    "_id": "91455f3d-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b751f7-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "Maverick Helicopters",
+    "_id": "91455f3e-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b751f8-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "PBR - Las Vegas",
+    "_id": "91455f3f-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b751f9-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "Resorts World NYC",
+    "_id": "91455f40-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b7a000-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "Resorts World Bimini",
+    "_id": "91455f41-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b7a000-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "Departure Lounge",
+    "_id": "91455f42-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b7a001-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "Mob Museum",
+    "_id": "91455f43-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b7a002-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "Segway Tours",
+    "_id": "91455f44-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b7a003-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "Pole Position",
+    "_id": "91455f45-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b751e4-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "Gray Line LV",
+    "_id": "91455f46-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b7a004-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "Madame Tussauds LV",
+    "_id": "91455f47-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b7a005-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "Test and Demo Property 58",
+    "_id": "91455f48-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b7a006-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "Genting Casino",
+    "_id": "91455f49-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b7a007-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "Wet'n'Wild Las Vegas",
+    "_id": "91455f4a-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b7a008-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "Chateau Nightclub & Rooftop Bar",
+    "_id": "91455f4b-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b7a009-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "T-Mobile Arena",
+    "_id": "91455f4c-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b7a00a-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "SQA Property ATX",
+    "_id": "91455f4d-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b7a00b-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "Loyalty Program Test",
+    "_id": "91455f4e-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b7a00b-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "Stoney's ",
+    "_id": "91455f4f-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b7a00c-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "Norwegian Cruise Line",
+    "_id": "91455f50-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b7a00d-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "Carnival Cruise Line",
+    "_id": "91455f51-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b7a00e-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "Escape Hunt Australia",
+    "_id": "91455f52-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b7a00f-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "Couples Resorts",
+    "_id": "91455f53-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b7a010-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "Delano",
+    "_id": "91455f54-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b751e0-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "Signature",
+    "_id": "91455f55-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b751e0-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "Boyd Gaming",
+    "_id": "91455f56-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b7a011-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "Melbourne River Cruises",
+    "_id": "91455f57-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b7a012-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "Gray Line Australia",
+    "_id": "91455f58-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b7a013-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "Topgolf Las Vegas",
+    "_id": "91455f59-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b7a014-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "Beer Park",
+    "_id": "91455f5a-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b7a015-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "Strip Gun Club",
+    "_id": "91455f5b-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b7a016-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "Property 78",
+    "_id": "91455f5c-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b7a006-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "Property 79",
+    "_id": "91455f5d-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b7a017-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "Property 80",
+    "_id": "91455f5e-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b7a017-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "Aspers Casino",
+    "_id": "91455f5f-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b7a018-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "MSC Cruises",
+    "_id": "91455f60-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b7a019-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "River Rock ",
+    "_id": "91455f61-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b7a01a-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "Property 84",
+    "_id": "91455f62-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b7a017-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "Property 85",
+    "_id": "91455f63-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b7a017-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "Property 86",
+    "_id": "91455f64-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b7a017-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "Resorts World Genting",
+    "_id": "91455f65-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b751f6-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "Resorts World Manila",
+    "_id": "91455f66-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b751f6-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "Resorts World at Sea",
+    "_id": "91455f67-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b751f6-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "MGM Macau",
+    "_id": "91455f68-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b7a01b-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "Shinyeh Dining",
+    "_id": "91455f69-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b7a01c-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "Kanpai",
+    "_id": "91455f6a-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b7a01d-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "Spring City Resort",
+    "_id": "91455f6b-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b7a01e-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "YOHO Beach Resort",
+    "_id": "91455f6c-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b7a01f-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "Munduk Wilderness",
+    "_id": "91455f6d-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b7a020-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "Rapid Rewards",
+    "_id": "91455f6e-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b7a021-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "IZE Seminyak",
+    "_id": "91455f6f-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b7a022-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "Heliservices",
+    "_id": "91455f70-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b7a023-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "Silks Place Tainan",
+    "_id": "91455f71-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b7a024-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "Segway Tours Singapore",
+    "_id": "91455f72-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b7a025-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "Singapore City Tour",
+    "_id": "91455f73-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b7a026-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "Sake Rok",
+    "_id": "91455f74-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b7a027-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "Gray Line MIA",
+    "_id": "91455f75-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b7a004-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "Madame Tussauds SF",
+    "_id": "91455f76-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b7a005-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "Madame Tussauds HW",
+    "_id": "91455f77-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b7a005-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "Gray Line ORL",
+    "_id": "91455f78-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b7a004-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "Gray Line DC",
+    "_id": "91455f79-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b7a004-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "Gray Line SF",
+    "_id": "91455f7a-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b7a004-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "Vegas Golden Knights",
+    "_id": "91455f7b-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b7a028-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "Property 110",
+    "_id": "91455f7c-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b7a017-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "Property 111",
+    "_id": "91455f7d-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b7a017-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "Easts Leagues Club",
+    "_id": "91455f7e-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b7a029-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "SEA LIFE Arizona",
+    "_id": "91455f7f-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b7a005-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "San Francisco Dungeon",
+    "_id": "91455f80-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b7a005-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "Property 115",
+    "_id": "91455f81-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b7a017-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "La Casa Hotel",
+    "_id": "91455f82-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b7a02a-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "Premier Rewards",
+    "_id": "91455f83-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b7a02b-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "Property 118",
+    "_id": "91455f84-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b7a017-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "Berkeley Sports Club",
+    "_id": "91455f85-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b7a029-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "GVC Burnaby",
+    "_id": "91455f86-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b7a02c-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "GVC Edmonton",
+    "_id": "91455f87-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b7a02c-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "Property 122",
+    "_id": "91455f88-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b7a017-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "Property 123",
+    "_id": "91455f89-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b7a017-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "Las Vegas Aces",
+    "_id": "91458620-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b751e0-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "Property 125",
+    "_id": "91458621-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b7a017-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "Property 126",
+    "_id": "91458622-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b7a017-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "Property 127",
+    "_id": "91458623-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b7a017-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "MGM Cotai",
+    "_id": "91458624-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b7a01b-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "POP! Slots",
+    "_id": "91458625-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b751e1-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "Starlight Edmonton",
+    "_id": "91458626-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b7a02c-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "FandangoNow",
+    "_id": "91458627-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b7a02d-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "MGM Grand Detroit",
+    "_id": "91458628-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b751e0-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "Melbourne Star",
+    "_id": "91458629-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b7a02e-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "Bar + Grill MGM Grand",
+    "_id": "9145862a-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b751e2-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "Bar + Grill Summerlin",
+    "_id": "9145862b-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b751e2-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "Cucina by WP",
+    "_id": "9145862c-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b751e2-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "LV Festival Grounds",
+    "_id": "9145862d-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b751e0-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "myVEGAS Exclusive",
+    "_id": "9145862e-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b751e1-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "Hornsby RSL",
+    "_id": "9145862f-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b7a02f-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "Test Hotel",
+    "_id": "91458630-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b7a030-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "Test Hotel Austin",
+    "_id": "91458631-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b7a015-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "Property 142",
+    "_id": "91458632-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b7a006-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "TestBoD",
+    "_id": "91458633-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b751e0-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "Jeju Shinhwa World",
+    "_id": "91458634-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b7a031-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "Hoi An Express",
+    "_id": "91458635-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b7a032-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "Yan Shang Kee",
+    "_id": "91458636-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b7a033-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "Grevin Museum",
+    "_id": "91458637-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b7a034-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "NANTA Show",
+    "_id": "91458638-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b7a035-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "Victoria Gate Casino",
+    "_id": "91458639-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b7a036-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "My KONAMI Exclusive",
+    "_id": "9145863a-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b751e1-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "Okada Manila",
+    "_id": "9145863b-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b7a037-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "Solaire Manila",
+    "_id": "9145863c-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b7a038-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "Watermark Hotel & Spa Bali",
+    "_id": "9145863d-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b7a039-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "Las Vegas Aviators",
+    "_id": "9145863e-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b7a03a-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "Casino Rama",
+    "_id": "9145863f-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b7a02c-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "St. Johns Park Bowling Club",
+    "_id": "91458640-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b7a03b-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "PONG Group",
+    "_id": "91458641-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b7a03c-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "HKEG",
+    "_id": "91458642-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b7a03d-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "Linus' BBQ and Chicken",
+    "_id": "91458643-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b7a03e-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "Tripodking",
+    "_id": "91458644-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b7a03f-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "Wu Lao",
+    "_id": "91458645-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b7a040-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "Hard Rock Casino",
+    "_id": "91458646-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b7a01a-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "Vatos Urban Tacos",
+    "_id": "91458647-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b7a041-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "Coreanos Kitchen",
+    "_id": "91458648-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b7a042-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "Nori Table",
+    "_id": "91458649-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b7a043-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "AEG",
+    "_id": "9145864a-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b7a044-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "POP! Slots Exclusive",
+    "_id": "9145864b-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b751e1-2c06-11ea-a416-f11930829871"
+  },
+  {
+    "name": "Vegas Indoor Skydiving",
+    "_id": "9145864c-2c06-11ea-a840-0db8615840e3",
+    "_partnerId": "89b7a045-2c06-11ea-a416-f11930829871"
+  }
+]

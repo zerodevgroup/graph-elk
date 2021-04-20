@@ -1,0 +1,26 @@
+{
+  "name": "member-service",
+  "description": "member-service",
+  "repo": "https://github.com/zerodevgroup/cim-nba-reference-app",
+  "license": "MIT",
+  "author": "zerodevgroup",
+  "framework": {
+    "name": "express-pg"
+  },
+  "instances": 4,
+  "config": {
+    "dev": {
+      "basePath": "/",
+      "domain": "localhost",
+      "port": "4000",
+      "PGHOST": "localhost",
+      "PGUSER": "devops",
+      "PGDATABASE": "data",
+      "PGPASSWORD": "Zero**",
+      "PGPORT": "5432",
+      "token": "7f8a4900-2914-4640-97a1-11c24febf5fc"
+    }
+  },
+  "assets": "./config/member-service/assets",
+  "schemas": "./config/member-service/schemas"
+}
