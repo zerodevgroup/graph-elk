@@ -3,7 +3,7 @@
 COUNT=5
 export TIMESTAMP=`timestamp.sh`
 
-cd ~/cim-nba-reference-app/member-service/tools
+cd $SERVICE_HOME/tools
 
 rm -rf ~/wip/output-*; ./create-tables.sh; ./generate-data.sh $COUNT;
 
