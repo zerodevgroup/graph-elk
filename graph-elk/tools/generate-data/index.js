@@ -7,12 +7,11 @@ const program = require("commander")
 const Utils = require("./components/utils")
 const Identity = require("./components/identity")
 const Member = require("./components/member")
-const Preference = require("./components/preference")
 
 program
   .option("--count <count>", "Number of members to generate")
   .option("--output <output>", "Output directory")
-  .description("Generate member and preference data")
+  .description("Generate member data")
   .action((options) => {
     // Set count to 1 if no number is supplied
     if(! options.count) {
@@ -34,18 +33,12 @@ program
     }
 
     let members = []
-    let preferences = []
 
     // Members
     for(let i = 0; i < options.count; i++) {
       let member = Member.generate(generateOptions)
       members.push(member)
       console.log(member)
-
-      let preference = Preference.generate({
-        member: member
-      })
-      preferences.push(preference)
     }
 
     let outputDirectory
@@ -59,7 +52,6 @@ program
     shell.mkdir("-p", outputDirectory)
 
     fs.writeFileSync(`${outputDirectory}/members.json`, JSON.stringify(members, null, 2))
-    fs.writeFileSync(`${outputDirectory}/preferences.json`, JSON.stringify(preferences, null, 2))
   })
 
 program.parse(process.argv)
