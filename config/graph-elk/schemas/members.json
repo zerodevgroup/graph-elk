@@ -1,0 +1,71 @@
+{
+  "model": "members",
+  "table": "members",
+  "fields": [
+    {
+      "name": "id",
+      "field": "id",
+      "type": "varchar PRIMARY KEY"
+    },
+    {
+      "name": "firstName",
+      "field": "first_name",
+      "type": "varchar"
+    },
+    {
+      "name": "lastName",
+      "field": "last_name",
+      "type": "varchar"
+    },
+    {
+      "name": "dateOfBirth",
+      "field": "date_of_birth",
+      "type": "varchar"
+    },
+    {
+      "name": "gender",
+      "field": "gender",
+      "type": "varchar"
+    },
+    {
+      "name": "email",
+      "field": "email",
+      "type": "varchar"
+    },
+    {
+      "name": "ssn",
+      "field": "ssn",
+      "type": "varchar"
+    },
+    {
+      "name": "enrolledInPlan",
+      "field": "enrolled_in_plan",
+      "type": "boolean"
+    },
+    {
+      "name": "planEffectiveDate",
+      "field": "plan_effective_date",
+      "type": "varchar"
+    },
+    {
+      "name": "webRegistrationFlag",
+      "field": "web_registration_flag",
+      "type": "boolean"
+    },
+    {
+      "name": "webRegistrationNotification",
+      "field": "web_registration_notification",
+      "type": "boolean"
+    },
+    {
+      "name": "webRegistrationNotificationDate",
+      "field": "web_registration_notification_date",
+      "type": "varchar"
+    },
+    {
+      "name": "webRegistrationNotificationCount",
+      "field": "web_registration_notification_count",
+      "type": "varchar"
+    }
+  ]
+}

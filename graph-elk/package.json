@@ -1,0 +1,30 @@
+{
+  "name": "graph-elk",
+  "version": "1.0.0",
+  "description": "graph-elk",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zerodevgroup/graph-elk"
+  },
+  "keywords": [],
+  "author": "zerodevgroup",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zerodevgroup/graph-elk"
+  },
+  "homepage": "https://github.com/zerodevgroup/graph-elk",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "lodash": "^4.17.20",
+    "moment": "^2.29.1",
+    "pg": "^8.5.1",
+    "request": "^2.88.0",
+    "uuid": "^8.3.2"
+  }
+}

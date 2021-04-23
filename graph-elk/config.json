@@ -1,0 +1,13 @@
+{
+  "dev": {
+    "basePath": "/",
+    "domain": "localhost",
+    "port": "4000",
+    "PGHOST": "localhost",
+    "PGUSER": "devops",
+    "PGDATABASE": "data",
+    "PGPASSWORD": "Zero**",
+    "PGPORT": "5432",
+    "token": "9cb10e49-a336-44ab-96d8-0f5019ae6caa"
+  }
+}

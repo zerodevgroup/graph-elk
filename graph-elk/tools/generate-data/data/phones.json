@@ -1,0 +1,98 @@
+[
+    {
+        "name": "iPhone 8",
+        "model": "8",
+        "operatingSystem": "iOS 12.4.1",
+        "type": "Smartphone"
+    },
+    {
+        "name": "iPhone 8 Plus",
+        "model": "8 Plus",
+        "operatingSystem": "iOS 12.4.1",
+        "type": "Phablet"
+    },
+    {
+        "name": "iPhone X",
+        "model": "X",
+        "operatingSystem": "iOS 12.4.1",
+        "type": "Smartphone"
+    },
+    {
+        "name": "iPhone XS",
+        "model": "XS",
+        "operatingSystem": "iOS 12.4.1",
+        "type": "Smartphone"
+    },
+    {
+        "name": "iPhone XS Max",
+        "model": "XS Max",
+        "operatingSystem": "iOS 12.4.1",
+        "type": "Phablet"
+    },
+    {
+        "name": "iPhone XR",
+        "model": "XR",
+        "operatingSystem": "iOS 13",
+        "type": "Smartphone"
+    },
+    {
+        "name": "iPhone XR Pro",
+        "model": "XR Pro",
+        "operatingSystem": "iOS 13",
+        "type": "Smartphone"
+    },
+    {
+        "name": "Samsung Galaxy S9",
+        "model": "S9",
+        "operatingSystem": "Android Pie 9",
+        "type": "Smartphone"
+    },
+    {
+        "name": "Samsung Galaxy S9+",
+        "model": "S9+",
+        "operatingSystem": "Android Pie 9",
+        "type": "Phablet"
+    },
+    {
+        "name": "Samsung Galaxy S10",
+        "model": "S10",
+        "operatingSystem": "Android Pie 9",
+        "type": "Smartphone"
+    },
+    {
+        "name": "Samsung Galaxy S10+",
+        "model": "S10+",
+        "operatingSystem": "Android Pie 9",
+        "type": "Phablet"
+    },
+    {
+        "name": "Samsung Galaxy Note 9",
+        "model": "Note 9",
+        "operatingSystem": "Android Pie 9",
+        "type": "Phablet"
+    },
+    {
+        "name": "Samsung Galaxy Note 10",
+        "model": "Note 10",
+        "operatingSystem": "Android Pie 9",
+        "type": "Phablet"
+    },
+    {
+        "name": "Samsung Galaxy Note 10+",
+        "model": "Note 10+",
+        "operatingSystem": "Android Pie 9",
+        "type": "Phablet"
+    },
+    {
+        "name": "Samsung Galaxy Note 10 5G",
+        "model": "Note 10 5G",
+        "operatingSystem": "Android Pie 9",
+        "type": "Phablet"
+    },
+    {
+        "name": "Samsung Galaxy Note 10+ 5G",
+        "model": "Note 10+ 5G",
+        "operatingSystem": "Android Pie 9",
+        "type": "Phablet"
+    }
+]

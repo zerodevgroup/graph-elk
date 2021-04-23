@@ -1,0 +1,137 @@
+[
+  {
+    "isDisputed": true,
+    "comment": "I didn't purchase the item.",
+    "status": "REFUNDED"
+  },
+  {
+    "isDisputed": true,
+    "comment": "I didn't purchase the item.",
+    "status": "REFUNDED"
+  },
+  {
+    "isDisputed": true,
+    "comment": "I didn't purchase the item.",
+    "status": "REFUNDED"
+  },
+  {
+    "isDisputed": true,
+    "comment": "I didn't purchase the item.",
+    "status": "REFUNDED"
+  },
+  {
+    "isDisputed": true,
+    "comment": "My dog ate it",
+    "status": "REJECTED"
+  },
+  {
+    "isDisputed": false,
+    "comment": null,
+    "status": null
+  },
+  {
+    "isDisputed": false,
+    "comment": null,
+    "status": null
+  },
+  {
+    "isDisputed": false,
+    "comment": null,
+    "status": null
+  },
+  {
+    "isDisputed": false,
+    "comment": null,
+    "status": null
+  },
+  {
+    "isDisputed": false,
+    "comment": null,
+    "status": null
+  },
+  {
+    "isDisputed": false,
+    "comment": null,
+    "status": null
+  },
+  {
+    "isDisputed": false,
+    "comment": null,
+    "status": null
+  },
+  {
+    "isDisputed": false,
+    "comment": null,
+    "status": null
+  },
+  {
+    "isDisputed": false,
+    "comment": null,
+    "status": null
+  },
+  {
+    "isDisputed": false,
+    "comment": null,
+    "status": null
+  },
+  {
+    "isDisputed": false,
+    "comment": null,
+    "status": null
+  },
+  {
+    "isDisputed": false,
+    "comment": null,
+    "status": null
+  },
+  {
+    "isDisputed": false,
+    "comment": null,
+    "status": null
+  },
+  {
+    "isDisputed": false,
+    "comment": null,
+    "status": null
+  },
+  {
+    "isDisputed": false,
+    "comment": null,
+    "status": null
+  },
+  {
+    "isDisputed": false,
+    "comment": null,
+    "status": null
+  },
+  {
+    "isDisputed": false,
+    "comment": null,
+    "status": null
+  },
+  {
+    "isDisputed": false,
+    "comment": null,
+    "status": null
+  },
+  {
+    "isDisputed": false,
+    "comment": null,
+    "status": null
+  },
+  {
+    "isDisputed": false,
+    "comment": null,
+    "status": null
+  },
+  {
+    "isDisputed": false,
+    "comment": null,
+    "status": null
+  },
+  {
+    "isDisputed": false,
+    "comment": null,
+    "status": null
+  }
+]

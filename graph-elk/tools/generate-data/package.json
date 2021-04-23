@@ -1,0 +1,32 @@
+{
+  "name": "fast-prize",
+  "version": "1.0.0",
+  "description": "Data generator",
+  "main": "index.js",
+  "dependencies": {
+    "commander": "^7.1.0",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.1",
+    "randomstring": "^1.1.5",
+    "shelljs": "^0.8.4",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vortex7/fast-prize.git"
+  },
+  "keywords": [
+    "data",
+    "generator"
+  ],
+  "author": "vortex7",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vortex7/fast-prize/issues"
+  },
+  "homepage": "https://github.com/vortex7/fast-prize#readme"
+}

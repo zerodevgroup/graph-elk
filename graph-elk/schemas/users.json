@@ -1,0 +1,66 @@
+{
+  "model": "users",
+  "table": "users",
+  "fields": [
+    {
+      "name": "authId",
+      "field": "auth_id",
+      "type": "varchar"
+    },
+    {
+      "name": "email",
+      "field": "email",
+      "type": "varchar"
+    },
+    {
+      "name": "id",
+      "field": "id",
+      "type": "varchar PRIMARY KEY"
+    },
+    {
+      "name": "name",
+      "field": "name",
+      "type": "varchar"
+    },
+    {
+      "name": "firstName",
+      "field": "first_name",
+      "type": "varchar"
+    },
+    {
+      "name": "lastName",
+      "field": "last_name",
+      "type": "varchar"
+    },
+    {
+      "name": "middleInitial",
+      "field": "middle_initial",
+      "type": "varchar"
+    },
+    {
+      "name": "suffix",
+      "field": "suffix",
+      "type": "varchar"
+    },
+    {
+      "name": "number",
+      "field": "number",
+      "type": "varchar"
+    },
+    {
+      "name": "role",
+      "field": "role",
+      "type": "varchar"
+    },
+    {
+      "name": "timestamp",
+      "field": "timestamp",
+      "type": "varchar"
+    },
+    {
+      "name": "type",
+      "field": "type",
+      "type": "varchar"
+    }
+  ]
+}
