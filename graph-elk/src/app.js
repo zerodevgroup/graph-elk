@@ -32,7 +32,7 @@ app.use("/:action/:modelName", (request, response, next) => {
     "url:": request.originalUrl,
     "action": action,
     "modelName": modelName,
-    "options": options,
+    "options": JSON.stringify(options),
     "token": process.env.token,
     "authId": authId,
   })
