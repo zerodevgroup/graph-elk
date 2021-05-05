@@ -39,7 +39,7 @@ class AppRoutes {
         let matchedItems = []
 
         data.forEach((item) => {
-          let itemString = `${item.lastName} ${item.firstName}`
+          let itemString = `${item.lastName} ${item.firstName} ${item.dateOfBirth}`
 
           let pattern = new RegExp(searchTerm, "i")
           if(pattern.test(itemString)) {
