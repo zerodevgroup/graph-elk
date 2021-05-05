@@ -10,291 +10,85 @@ class Model {
   }
 
   list(callback) {
-    let statement = this.options.data.statement;
-
-    const client = new Client()
-    client.connect()
-    client.query(statement, (error, result) => {
-      if(error) {
-        callback({
-          count: 0,
-          data: [],
-          error: error
-        })
+    let mockData = [
+      {
+          "id": "c93d8b70-a443-11eb-b173-bbc163208834",
+          "firstName": "Myrtice",
+          "lastName": "Alkhateeb",
+          "dateOfBirth": "3/6/1993",
+          "gender": "Female",
+          "email": "myrtice.alkhateeb@yopmail.com",
+          "ssn": "611-76-8664",
+          "enrolledInPlan": "",
+          "planEffectiveDate": "",
+          "webRegistrationFlag": "",
+          "webRegistrationNotification": "",
+          "webRegistrationNotificationDate": "",
+          "webRegistrationNotificationCount": ""
+      },
+      {
+          "id": "c93f8740-a443-11eb-b173-bbc163208834",
+          "firstName": "Sherman",
+          "lastName": "Voge",
+          "dateOfBirth": "12/26/1926",
+          "gender": "Male",
+          "email": "sherman.voge@yopmail.com",
+          "ssn": "945-80-1078",
+          "enrolledInPlan": true,
+          "planEffectiveDate": "2020-04-23 10:54:21",
+          "webRegistrationFlag": true,
+          "webRegistrationNotification": true,
+          "webRegistrationNotificationDate": "2020-04-23 10:54:21",
+          "webRegistrationNotificationCount": "1"
+      },
+      {
+          "id": "c9402380-a443-11eb-b173-bbc163208834",
+          "firstName": "Johnie",
+          "lastName": "Barbus",
+          "dateOfBirth": "7/2/1955",
+          "gender": "Male",
+          "email": "johnie.barbus@yopmail.com",
+          "ssn": "723-48-8990",
+          "enrolledInPlan": true,
+          "planEffectiveDate": "2019-04-23 10:54:21",
+          "webRegistrationFlag": true,
+          "webRegistrationNotification": "",
+          "webRegistrationNotificationDate": "",
+          "webRegistrationNotificationCount": ""
+      },
+      {
+          "id": "c94098b0-a443-11eb-b173-bbc163208834",
+          "firstName": "Everett",
+          "lastName": "Ryu",
+          "dateOfBirth": "3/9/1982",
+          "gender": "Male",
+          "email": "everett.ryu@yopmail.com",
+          "ssn": "994-47-6305",
+          "enrolledInPlan": true,
+          "planEffectiveDate": "2021-04-23 10:54:21",
+          "webRegistrationFlag": "",
+          "webRegistrationNotification": "",
+          "webRegistrationNotificationDate": "",
+          "webRegistrationNotificationCount": ""
+      },
+      {
+          "id": "c940bfc0-a443-11eb-b173-bbc163208834",
+          "firstName": "Carroll",
+          "lastName": "Chhit",
+          "dateOfBirth": "2/16/1957",
+          "gender": "Female",
+          "email": "carroll.chhit@yopmail.com",
+          "ssn": "990-67-7916",
+          "enrolledInPlan": true,
+          "planEffectiveDate": "2019-04-23 10:54:21",
+          "webRegistrationFlag": "",
+          "webRegistrationNotification": "",
+          "webRegistrationNotificationDate": "",
+          "webRegistrationNotificationCount": ""
       }
-      else {
-        let resultData = []
-        result.rows.forEach((item) => {
-          let resultItem = {}
+    ]
 
-          this.schema.fields.forEach((field) => {
-            resultItem[field.name] = item[field.field] ? item[field.field] : ""
-          })
-
-          resultData.push(resultItem)
-        })
-
-        callback(resultData)
-      }
-
-      client.end()
-    })
-  }
-
-  search(callback) {
-    let searchOptions = this.options.data
-    let statement = "select * from client where"
-
-    let fields = {}
-    this.schema.fields.forEach((field) => {
-      fields[field.name] = field.field
-    })
-
-    Object.keys(searchOptions).forEach((name) => {
-      filters.push(`${fields[name]} like '${searchOptions[name]}%'`)
-    })
-
-    filters.foreEach((filter, index) => {
-      if(index > 0) {
-        statement += " AND "
-      }
-      statement += filter
-    })
-
-    const client = new Client()
-    client.connect()
-    client.query(statement, (error, result) => {
-      if(error) {
-        callback({
-          count: 0,
-          data: [],
-          error: error
-        })
-      }
-      else {
-        let resultData = []
-        result.rows.forEach((item) => {
-          let resultItem = {}
-
-          this.schema.fields.forEach((field) => {
-            resultItem[field.name] = item[field.field] ? item[field.field] : ""
-          })
-
-          resultData.push(resultItem)
-        })
-
-        callback(resultData)
-      }
-
-      client.end()
-    })
-  }
-
-  create(callback) {
-    let data = this.options.data
-    let schemaFields = _.keyBy(this.schema.fields, "name")
-
-    let totalCount = 0
-    let createIds = []
-    if(data && data.length > 0) {
-      try {
-        const client = new Client()
-        client.connect()
-
-        let queries = []
-        data.forEach((item) => {
-          if(!item.id) {
-            item.id = uuidv1()
-          }
-          createIds.push(item.id)
-
-          let createSchema = {
-            fields: [],
-            columns: []
-          }
-
-          Object.keys(item).forEach((fieldName) => {
-            if(!fieldName.match(/^undefined$/) && schemaFields[fieldName]) {
-              createSchema.fields.push(schemaFields[fieldName])
-              createSchema.columns.push(schemaFields[fieldName].field)
-            }
-          });
-
-          let statement = `INSERT INTO ${this.schema.table} (${createSchema.columns.join(",")}) VALUES(`
-          let fieldCount = 0
-          createSchema.fields.forEach((field) => {
-            let column = field.field
-            let fieldName = field.name
-            let dataType = field.type
-            if(fieldCount > 0) {
-              statement += ", "
-            }
-
-            let value = item[fieldName] ? item[fieldName] : null
-            if(value === null) {
-              statement += value
-            }
-            else if(dataType.match(/(varchar|date)/)) {
-              statement += "$__$" + value + "$__$"
-            }
-            else if(dataType.match(/(numeric|boolean)/)) {
-              statement += value
-            }
-
-            fieldCount++
-          })
-
-          statement += ")"
-
-          queries.push(client.query(statement))
-        })
-
-        Promise.all(queries).then((results) => {
-          results.forEach((result) => {
-            totalCount += result.rowCount
-          })
-
-          callback({
-            count: totalCount,
-            createIds: createIds,
-          })
-
-          client.end()
-        }).catch((error) => {
-          callback({
-            count: totalCount,
-            error: error
-          })
-        })
-      }
-      catch(ex) {
-        callback({
-          count: totalCount,
-          error: ex
-        })
-      }
-    }
-    else {
-      callback({
-        count: totalCount,
-        error: "mising data attribute"
-      })
-    }
-  }
-
-  update(callback) {
-    let data = this.options.data
-
-    let updateFields = _.keyBy(this.schema.fields[this.options.modelName], "name")
-
-    if(data) {
-      let item = data
-      let schemaFields = _.keyBy(this.schema.fields, "name")
-      let statement = `UPDATE ${this.options.modelName} SET `
-
-      let updateSchema = {
-        fields: [],
-        columns: []
-      }
-
-      Object.keys(item).forEach((fieldName) => {
-        if(fieldName !== "id") {
-          if(!fieldName.match(/^undefined$/) && schemaFields[fieldName]) {
-            updateSchema.fields.push(schemaFields[fieldName])
-            updateSchema.columns.push(schemaFields[fieldName].field)
-          }
-        }
-      });
-
-      let fieldCount = 0
-      updateSchema.fields.forEach((field) => {
-        let column = field.field
-        let fieldName = field.name
-        let dataType = field.type
-
-        if(fieldCount > 0) {
-          statement += ", "
-        }
-
-        let value = item[fieldName] ? item[fieldName] : null
-        if(value === null) {
-          statement += `${column} = ${value}`
-        }
-        else if(dataType.match(/(varchar|date)/)) {
-          statement += `${column} = $__$${value}$__$`
-        }
-        else if(dataType.match(/(numeric|boolean)/)) {
-          statement += `${column} = ${value}`
-        }
-
-        fieldCount++
-      })
-
-      statement += ` WHERE id = '${item.id}'`
-      console.log(statement)
-
-      const client = new Client()
-      client.connect()
-      client.query(statement, (error, result) => {
-        if(error) {
-          callback({
-            count: 0,
-            data: [],
-            error: error
-          })
-        }
-        else {
-          callback({
-            count: result.rowCount,
-            data: item,
-            statement: statement
-          })
-        }
-        client.end()
-      })
-    }
-  }
-
-  delete(callback) {
-    let data = this.options.data
-
-    console.log("Delete...")
-    console.log(this.options.modelName)
-    console.log(data)
-
-    if(data.data && data.data.length > 0) {
-      let ids = ''
-      data.data.forEach((item, index) => {
-        if(index > 0) {
-          ids += ','
-        }
-        ids += `'${item.id}'` 
-      })
-
-      let statement = `DELETE FROM ${this.options.modelName} WHERE id IN (${ids})`
-
-      console.log(statement)
-
-      const client = new Client()
-      client.connect()
-      client.query(statement, (error, result) => {
-        if(error) {
-          callback({
-            count: 0,
-            data: [],
-            error: error
-          })
-        }
-        else {
-          callback({
-            count: result.rowCount,
-            data: result.rows,
-            statement: statement
-          })
-        }
-        client.end()
-      })
-    }
+    callback(mockData)
   }
 
 }
