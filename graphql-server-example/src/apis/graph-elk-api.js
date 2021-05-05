@@ -5,7 +5,7 @@ class GraphElkAPI extends RESTDataSource {
     // Always call super()
     super();
     // Sets the base URL for the REST API
-    this.baseURL = 'http://localhost/_search/';
+    this.baseURL = 'http://localhost:4000/_search/';
   }
 
   async searchMembers(search) {
